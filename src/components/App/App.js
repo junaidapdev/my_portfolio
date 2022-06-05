@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Blogs from '../Blogs/Blogs'
 import Contact from '../Contact/Contact'
+import Gohome from '../GoHome/Gohome'
 import Home from '../Home/Home'
 import Navbar from '../Navbar/Navbar'
 import Products from '../Products/Products'
@@ -20,6 +21,7 @@ const App = () => {
     <Route path='/products' component={Products}/>
     <Route path='/blogs' component={Blogs}/>
     <Route path='/contact' component={Contact }/>
+    <Gohome/>
   </div>
       </BrowserRouter>
     )

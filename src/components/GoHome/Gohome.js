@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 
 import homeIconWhite from './../../assets/home_white.png';
 import homeIconBlack from './../../assets/home_black.png';
-import './GoHome.css';
+import './Gohome.css';
 
 class GoHome extends Component {
     navigateToHome = () => {

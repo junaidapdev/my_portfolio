@@ -1,20 +1,26 @@
 /* Position and size our burger button */
 .bm-burger-button {
     position: fixed;
-    width: 36px;
-    height: 36px;
+    width: 23px;
+    height: 23px;
     left: 32px;
     top: 32px;
+    border-radius: 200px;
+}
+
+#react-burger-menu-btn{
+  
 }
 
 /* Color to our burger */
 .bm-burger-bars {
-    background: #373a47;
+    /* background: linear-gradient(89.97deg, #36D1DC 1.84%, #064CE8 102.67%); */
+    background: #fff;
 }
 
 /* Color to our burger icon on hover */
 .bm-burger-bars-hover {
-    background: #000;
+    background: rgb(209, 208, 208);
 }
 
 /* Size of the cross button */
@@ -25,7 +31,7 @@
 
 /* Color of cross button */
 .bm-cross {
-    background: #fff;
+    background: #000;
 }
 
 /* Sidebar wrapper styles */
@@ -37,10 +43,12 @@
 }
 
 .bm-menu {
-    background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
+    /* background: linear-gradient(to left , #36D1DC 1.84%, #064CE8 102.67%); */
+    background: #fff;
     padding: 2.5em 1.5em 0 0;
     height: 100vh;
     overflow: hidden !important;
+    scroll-behavior: none;
 }
 
 .bm-item-list {
@@ -49,10 +57,10 @@
 
 .menu-item {
     position: relative;
-    font-size: 2em;
+    font-size: 1em;
     text-decoration: none;
-    color: #fff;
-    font-family: Montserrat;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
     padding: 10px;
@@ -65,7 +73,7 @@
     height: 0;
     bottom: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #000;
     visibility: hidden;
     transition: all 0.5s ease-in-out;
 }

@@ -3,8 +3,10 @@ import './Projects.css'
 
 const Projects = () => {
   return (
-    <div>Projects</div>
-  )
+    <div className="section-container">
+    <h1>Im Projects</h1>
+  </div>
+    )
 }
 
 export default Projects

@@ -1,0 +1,137 @@
+.project-cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 44px;
+    align-self: center;
+    justify-content: center;
+}
+
+.project-card {
+    width: 15rem;
+    height: 25rem;
+    margin: 2rem;
+    background: #fff;
+    border-radius: 16px;
+    border: 0.1px solid gray;
+}
+
+.project-card:hover {
+    box-shadow: 0px 40px 50px rbga(0, 0, 0, 0.4);
+    transition: all 0.3s;
+}
+
+.image-container {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.project-external-link {
+    border-radius: inherit;
+}
+
+.project-image {
+    display: block;
+    border-radius: inherit;
+    max-height: 100%;
+    max-width: 100%;
+    /* transform: scale(0.9); */
+
+}
+
+.project-details-container {
+    display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  height: 50%;
+}
+
+.project-yt-link {
+    font-weight: 600;
+    color: #4089ed;
+}
+
+.project-heading {
+    margin: 0;
+    text-align: left;
+    color: #011852;
+    font-size: 1.3rem;
+    justify-content: flex-start;
+}
+
+.project-details {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7d7987;
+    margin: 0;
+  text-align: left;
+  color: #2F80ED;
+  font-size: 16px;
+  justify-content: flex-start;
+}
+
+.project-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-button1 button{
+    width: 5rem;
+    background: #fff;
+    box-shadow: 0 19px 60px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 16px;
+    color: var(--Light-Secondary);
+    border: none;
+    color: #2F80ED;
+    border: 1px solid #5290fd ;
+  }
+  
+  .c-button1 button:hover{
+    cursor: pointer;
+    color: #000;
+    background: white;
+    border: 1px solid #fff ;
+
+  }
+
+  .c-button2 button{
+    width: 5rem;
+    background: #fff;
+    box-shadow: 0 19px 60px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 16px;
+    color: var(--Light-Secondary);
+    border: none;
+  }
+  
+  .c-button2 button:hover{
+    cursor: pointer;
+    color: #5290fd;
+    background: white;
+    border: 1px solid #5290fd ;
+  }
+  
+
+@media only screen and (max-width: 640px) {
+    .project-cards-container {
+        padding: 20px;
+    }
+
+    .project-card {
+        width: 290px;
+        min-height: 500px;
+    }
+}

@@ -9,7 +9,7 @@ const Home = () => {
       <div className="header-text">
         {/* <h1>Welcome to my portfolio!</h1>
         <p>This is Mohammed Junaid, a full stack dev and a creator</p> */}
-        <h1>Hi 👋 I'm Mohammed Junaid</h1>
+        <h1>Hey, I'm Mohammed Junaid! </h1>
         <p>fullstack developer</p>
         {/* <p>Full Stack Developer</p> */}
         <span>

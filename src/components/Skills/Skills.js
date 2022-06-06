@@ -11,12 +11,12 @@ const Skills = () => {
     <div className="section-container">
         <Header heading="My Skills." details="Passionate about building products & side Projects"/>
 
-        <Footer phrase="Go to " link="blogs" toAddress='/blogs'/>
         <div className='skill-card-container'>
                 {skillList.map(({ skillName, skillUrl }) => (
-                    <SkillCard skillName={skillName} skillUrl={skillUrl} />
-                ))}
+                  <SkillCard skillName={skillName} skillUrl={skillUrl} />
+                  ))}
             </div>
+                  <Footer phrase="Go to " link="Blogs" toAddress='/blogs'/>
 
         <div className="skills-vector-frame">
           <img src={skillsVector} alt="skills" className="skills-vector"/>
